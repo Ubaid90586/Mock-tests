@@ -1,0 +1,6 @@
+{
+  "name": "FPSC Medical Officer Mock Exam",
+  "description": "100-question Medical Officer Mock Exam quiz with instant feedback, answer explanations, and score tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
