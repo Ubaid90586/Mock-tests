@@ -47,12 +47,20 @@ export const QuizResults: React.FC<QuizResultsProps> = ({
         <div className="absolute -bottom-12 -left-12 w-40 h-40 bg-indigo-50 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 max-w-xl mx-auto">
-          <div className="inline-flex p-4 rounded-2xl bg-amber-50 border border-amber-200 mb-4 text-amber-600">
-            <Trophy className="w-10 h-10" />
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <img
+              src="/medicoz-logo.jpg"
+              alt="Medicoz Republic"
+              referrerPolicy="no-referrer"
+              className="w-14 h-14 rounded-2xl object-contain bg-black border border-slate-200 shadow-sm"
+            />
+            <div className="p-3 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600">
+              <Trophy className="w-8 h-8" />
+            </div>
           </div>
 
-          <p className="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-1">
-            Exam Completed
+          <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">
+            Medicoz Republic QBANK • Exam Completed
           </p>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
             {grade.title}

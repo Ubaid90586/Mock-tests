@@ -23,9 +23,12 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-4xl mx-auto px-4 py-3 sm:py-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center font-bold text-white shadow-sm flex-shrink-0">
-              <BookOpen className="w-5 h-5 text-white" />
-            </div>
+            <img
+              src="/medicoz-logo.jpg"
+              alt="Medicoz Republic Logo"
+              referrerPolicy="no-referrer"
+              className="w-11 h-11 rounded-xl object-contain bg-black border border-slate-700 shadow-sm flex-shrink-0"
+            />
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg sm:text-xl font-bold tracking-tight text-white">

@@ -282,8 +282,24 @@ export default function App() {
         )}
       </main>
 
-      <footer className="bg-white border-t border-slate-200 py-4 px-4 text-center text-xs text-slate-500">
-        FPSC Medical Officer - Mock Exam 1 • Medicoz Republic QBANK Preparation Suite
+      <footer className="bg-white border-t border-slate-200 py-6 px-4 text-center text-xs text-slate-500">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img
+              src="/medicoz-logo.jpg"
+              alt="Medicoz Republic"
+              referrerPolicy="no-referrer"
+              className="w-8 h-8 rounded-lg object-contain bg-black border border-slate-200"
+            />
+            <div className="text-left">
+              <p className="font-semibold text-slate-800 text-xs">Medicoz Republic QBANK</p>
+              <p className="text-[11px] text-slate-400">FPSC Medical Officer - Mock Exam 1</p>
+            </div>
+          </div>
+          <div className="text-xs text-slate-500">
+            Attempt all 100 questions • Equal marks • Complete answer key & rationale
+          </div>
+        </div>
       </footer>
     </div>
   );
